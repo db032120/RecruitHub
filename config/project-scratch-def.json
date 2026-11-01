@@ -1,0 +1,9 @@
+{
+  "orgName": "RecruitHub Dev",
+  "edition": "Developer",
+  "features": ["Communities"],
+  "settings": {
+    "communitiesSettings": { "enableNetworksEnabled": true },
+    "experienceBundleSettings": { "enableExperienceBundleMetadata": true }
+  }
+}
