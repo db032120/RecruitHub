@@ -13,9 +13,13 @@
     <label>RecruitHub Console</label>
     <navType>Console</navType>
     <tabs>Job_Posting__c</tabs>
+    <tabs>Application__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>RecruitHub_Console_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Application__c</tab>
+        </mappings>
         <mappings>
             <tab>Job_Posting__c</tab>
         </mappings>
