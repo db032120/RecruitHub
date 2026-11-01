@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason__c</fullName>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not a fit</fullName>
+                <default>false</default>
+                <label>Not a fit</label>
+            </value>
+            <value>
+                <fullName>Withdrew</fullName>
+                <default>false</default>
+                <label>Withdrew</label>
+            </value>
+            <value>
+                <fullName>Position filled</fullName>
+                <default>false</default>
+                <label>Position filled</label>
+            </value>
+            <value>
+                <fullName>Failed interview</fullName>
+                <default>false</default>
+                <label>Failed interview</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
